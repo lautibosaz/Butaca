@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Butaca</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_trending">Trending</string>
+    <string name="tab_watchlist">My list</string>
+
+    <string name="search_hint">Search movies by title</string>
+    <string name="search_clear">Clear search</string>
+    <string name="hero_label">#1 in popular today</string>
+    <string name="section_popular">Popular now</string>
+    <string name="section_popular_subtitle">What people are watching on TMDB</string>
+    <string name="section_results">Results for “%1$s”</string>
+    <string name="search_no_results_title">No results</string>
+    <string name="search_no_results_message">We couldn\'t find any movie titled “%1$s”. Try another title.</string>
+
+    <string name="trending_title">Trending this week</string>
+    <string name="trending_subtitle">The movies everyone talked about in the last 7 days</string>
+    <string name="trending_empty_title">Nothing trending</string>
+    <string name="trending_empty_message">TMDB didn\'t return trending movies right now.</string>
+
+    <string name="watchlist_title">My list</string>
+    <plurals name="watchlist_count">
+        <item quantity="one">%d movie to watch</item>
+        <item quantity="other">%d movies to watch</item>
+    </plurals>
+    <string name="watchlist_empty_title">Your list is empty</string>
+    <string name="watchlist_empty_message">Open any movie and tap “Add to my list” to save it for later.</string>
+
+    <string name="action_details">Details</string>
+    <string name="action_add_watchlist">My list</string>
+    <string name="action_in_watchlist">In my list</string>
+    <string name="action_add_watchlist_long">Add to my list</string>
+    <string name="action_remove_watchlist">In my list · Tap to remove</string>
+    <string name="action_share">Share</string>
+    <string name="action_homepage">Website</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_back">Back</string>
+    <string name="share_chooser">Share movie</string>
+    <string name="no_app_to_open">No app available to open this</string>
+
+    <string name="detail_synopsis">Synopsis</string>
+    <string name="detail_no_overview">There is no synopsis available in your language yet.</string>
+    <string name="detail_cast">Cast</string>
+    <string name="detail_recommendations">Recommended for you</string>
+    <string name="detail_similar">Similar movies</string>
+    <string name="detail_runtime">%1$dh %2$02dm</string>
+    <string name="detail_runtime_minutes">%1$d min</string>
+    <string name="detail_original_title">Original title</string>
+    <string name="detail_release">Release</string>
+    <string name="detail_votes">Votes</string>
+
+    <string name="error_no_connection_title">No internet connection</string>
+    <string name="error_no_connection_message">Check your Wi-Fi or mobile data and try again.</string>
+    <string name="error_timeout_title">The connection is too slow</string>
+    <string name="error_timeout_message">TMDB took too long to respond. Try again in a moment.</string>
+    <string name="error_unauthorized_title">Invalid TMDB token</string>
+    <string name="error_unauthorized_message">Check the TMDB_TOKEN value in local.properties and rebuild the app.</string>
+    <string name="error_not_found_title">Movie not found</string>
+    <string name="error_not_found_message">This movie is no longer available on TMDB.</string>
+    <string name="error_server_title">TMDB is having trouble</string>
+    <string name="error_server_message">The service didn\'t respond correctly. Try again later.</string>
+    <string name="error_unknown_title">Something went wrong</string>
+    <string name="error_unknown_message">We couldn\'t load this content. Try again.</string>
+    <string name="error_load_more">Couldn\'t load more movies</string>
+
+    <string name="cd_poster">Poster of %1$s</string>
+    <string name="cd_rating">Rating %1$s out of 10</string>
+</resources>

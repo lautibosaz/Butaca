@@ -1,0 +1,1 @@
+-keep class com.butaca.app.data.remote.dto.** { *; }

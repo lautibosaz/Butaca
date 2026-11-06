@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Inicio</string>
+    <string name="tab_trending">Tendencias</string>
+    <string name="tab_watchlist">Mi lista</string>
+
+    <string name="search_hint">Buscar películas por título</string>
+    <string name="search_clear">Borrar búsqueda</string>
+    <string name="hero_label">N.º 1 en populares hoy</string>
+    <string name="section_popular">Populares ahora</string>
+    <string name="section_popular_subtitle">Lo que la gente está mirando en TMDB</string>
+    <string name="section_results">Resultados para «%1$s»</string>
+    <string name="search_no_results_title">No hay resultados</string>
+    <string name="search_no_results_message">No se encuentra ninguna película con el título «%1$s». Probá con otro título.</string>
+
+    <string name="trending_title">Tendencias de la semana</string>
+    <string name="trending_subtitle">Las películas de las que todos hablaron en los últimos 7 días</string>
+    <string name="trending_empty_title">Sin tendencias</string>
+    <string name="trending_empty_message">TMDB no devolvió películas en tendencia en este momento.</string>
+
+    <string name="watchlist_title">Mi lista</string>
+    <plurals name="watchlist_count">
+        <item quantity="one">%d película para ver</item>
+        <item quantity="many">%d películas para ver</item>
+        <item quantity="other">%d películas para ver</item>
+    </plurals>
+    <string name="watchlist_empty_title">Tu lista está vacía</string>
+    <string name="watchlist_empty_message">Abrí cualquier película y tocá «Agregar a mi lista» para guardarla para después.</string>
+
+    <string name="action_details">Ver detalles</string>
+    <string name="action_add_watchlist">Mi lista</string>
+    <string name="action_in_watchlist">En mi lista</string>
+    <string name="action_add_watchlist_long">Agregar a mi lista</string>
+    <string name="action_remove_watchlist">En mi lista · Tocá para quitar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_homepage">Sitio web</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_back">Volver</string>
+    <string name="share_chooser">Compartir película</string>
+    <string name="no_app_to_open">No hay ninguna app para abrir esto</string>
+
+    <string name="detail_synopsis">Sinopsis</string>
+    <string name="detail_no_overview">Todavía no hay sinopsis disponible en tu idioma.</string>
+    <string name="detail_cast">Reparto</string>
+    <string name="detail_recommendations">Recomendadas para vos</string>
+    <string name="detail_similar">Películas similares</string>
+    <string name="detail_runtime">%1$d h %2$02d min</string>
+    <string name="detail_runtime_minutes">%1$d min</string>
+    <string name="detail_original_title">Título original</string>
+    <string name="detail_release">Estreno</string>
+    <string name="detail_votes">Votos</string>
+
+    <string name="error_no_connection_title">Sin conexión a Internet</string>
+    <string name="error_no_connection_message">Revisá tu Wi-Fi o tus datos móviles e intentá de nuevo.</string>
+    <string name="error_timeout_title">La conexión está muy lenta</string>
+    <string name="error_timeout_message">TMDB tardó demasiado en responder. Probá de nuevo en un momento.</string>
+    <string name="error_unauthorized_title">Token de TMDB inválido</string>
+    <string name="error_unauthorized_message">Revisá el valor de TMDB_TOKEN en local.properties y volvé a compilar la app.</string>
+    <string name="error_not_found_title">Película no encontrada</string>
+    <string name="error_not_found_message">Esta película ya no está disponible en TMDB.</string>
+    <string name="error_server_title">TMDB tiene problemas</string>
+    <string name="error_server_message">El servicio no respondió correctamente. Intentá más tarde.</string>
+    <string name="error_unknown_title">Algo salió mal</string>
+    <string name="error_unknown_message">No pudimos cargar este contenido. Intentá de nuevo.</string>
+    <string name="error_load_more">No se pudieron cargar más películas</string>
+
+    <string name="cd_poster">Póster de %1$s</string>
+    <string name="cd_rating">Calificación %1$s de 10</string>
+</resources>
